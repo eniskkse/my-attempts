@@ -16,7 +16,7 @@ def islem(işlem1):
     print(eval(işlem1))
 
 def calistir(a):
-    print("şuan burdayım")
+   
     sb.call(a)
 
 def oyun():
@@ -36,7 +36,7 @@ def oyun():
 def web(girdi):
     wb.open_new_tab(girdi)
     exit()
-####Karar verici###
+####Decider###
 while bool(girdi):
     def brain(girdi):
         if girdi=="işlem":
